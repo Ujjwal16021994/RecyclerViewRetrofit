@@ -32,7 +32,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-       Log.e("tag","-----------gotten------------"+list.get(position).title);
+       Log.d("tag","-----------gotten------------"+list.get(position).title);
         holder.albumid.setText(list.get(position).albumid);
         holder.id.setText(list.get(position).id);
         holder.title.setText(list.get(position).title);
